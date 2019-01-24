@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> formulier om in te vullen </title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1> Formulier </h1>
+  <form id="formulier" method="get" action="http://bla.hosts.ma-cloud.nl/pop.php" >
+
+    <label for="question1">  Naam </label>
+    <input type="text" name="naam" id="question1" autofocus placeholder="bijv. henk niets">
+    <label for="klas"> Klas </label>
+    <select id="klas" name="klas">
+      <option value="MG1A"> MG1A </option>
+      <option value="MG1B"> MG1B </option>
+      <option value="MG1C"> MG1C </option>
+      <option value="MG1D"> MG1D </option>
+    </select>
+    <br>
+    <fieldset>
+      <legend> welbevinden </legend>
+    <label> Hoe positief ben je op dit moment over je opleiding? </label> <br> <br>
+    <input type="radio" name="positief" value="0"> 0
+  <input type="radio" name="positief" value="1"> 1
+  <input type="radio" name="positief" value="2"> 2
+  <input type="radio" name="positief" value="3"> 3
+<input type="radio" name="positief" value="4"> 4
+<input type="radio" name="positief" value="5"> 5
+<input type="radio" name="positief" value="6"> 6
+<input type="radio" name="positief" value="7"> 7
+<input type="radio" name="positief" value="8"> 8
+<input type="radio" name="positief" value="9"> 9
+<input type="radio" name="positief" value="10"> 10
+<br> <br>
+
+<label> Hoe gemotiveerd ben je momenteel om de opleiding af te maken? </label> <br> <br>
+<input type="radio" name="motivatie" value="0"> 0
+<input type="radio" name="motivatie" value="1"> 1
+<input type="radio" name="motivatie" value="2"> 2
+<input type="radio" name="motivatie" value="3"> 3
+<input type="radio" name="motivatie" value="4"> 4
+<input type="radio" name="motivatie" value="5"> 5
+<input type="radio" name="motivatie" value="6"> 6
+<input type="radio" name="motivatie" value="7"> 7
+<input type="radio" name="motivatie" value="8"> 8
+<input type="radio" name="motivatie" value="9"> 9
+<input type="radio" name="motivatie" value="10"> 10
+<br> <br>
+
+<label> Hoeveel vertrouwen heb je momenteel in je eigen kunnen? </label> <br> <br>
+<input type="radio" name="vertrouwen" value="0"> 0
+<input type="radio" name="vertrouwen" value="1"> 1
+<input type="radio" name="vertrouwen" value="2"> 2
+<input type="radio" name="vertrouwen" value="3"> 3
+<input type="radio" name="vertrouwen" value="4"> 4
+<input type="radio" name="vertrouwen" value="5"> 5
+<input type="radio" name="vertrouwen" value="6"> 6
+<input type="radio" name="vertrouwen" value="7"> 7
+<input type="radio" name="vertrouwen" value="8"> 8
+<input type="radio" name="vertrouwen" value="9"> 9
+<input type="radio" name="vertrouwen" value="10"> 10
+    </fieldset>
+    <fieldset>
+    <legend> Diploma </legend>
+      <label> Wat voor diploma heb jij? </label>
+      <br> <br>
+      <input type="radio" name="diploma" value="VMBO"> VMBO
+      <input type="radio" name="diploma" value="HAVO"> HAVO
+      <input type="radio" name="diploma" value="VWO"> VWO
+    </fieldset>
+    <br>
+        <label>wat wil je later worden?<label><br><br>
+          <TEXTAREA NAME="tekstvak" ROWS="4" COLS="50"></TEXTAREA>
+          </FORM>
+
+        <br>
+    <input type="submit">
+
+
+  </form>
+</body>
+
+<footer>
+  <br>
+  <div id="validatie">
+    <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+        <img src="https://blanken5.home.xs4all.nl/afb/valid-html5-blue.png" alt="Valide HTML5"></a>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+        <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
+    </a>
+</div>
+</footer>
+</html>
